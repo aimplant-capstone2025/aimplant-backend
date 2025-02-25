@@ -13,7 +13,7 @@ Ensure you have **Python 3.8+** installed on your system.
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/aimplant-backend.git
+git clone https://github.com/aimplant-capstone2025/aimplant-backend.git
 cd aimplant-backend
 ```
 
