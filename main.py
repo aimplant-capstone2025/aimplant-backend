@@ -110,9 +110,12 @@ async def predict(file: UploadFile = File(...)):
         # Delete temporary image
         os.remove(file_path)
 
+        # return JSONResponse(content={
+        #     "result_img": result_img_b64, 
+        #     "implants": implants
+        # })
         return JSONResponse(content={
-            "result_img": result_img_b64, 
-            "implants": implants
+            "message": "yolo is working properly", 
         })
     
     except Exception as e:
